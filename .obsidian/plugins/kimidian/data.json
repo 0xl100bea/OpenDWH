@@ -1,0 +1,51 @@
+{
+  "cliPath": "/home/user2/.kimi-code/bin/kimi",
+  "bashPath": "/bin/bash",
+  "extraArgs": "",
+  "permissionMode": "ask",
+  "grantedAlwaysTools": [],
+  "attachActiveNote": true,
+  "defaultModel": "kimi-code/kimi-for-coding",
+  "model": "",
+  "lastModelOptions": [
+    {
+      "value": "kimi-code/kimi-for-coding",
+      "name": "K2.8 Preview"
+    },
+    {
+      "value": "kimi-code/kimi-for-coding-highspeed",
+      "name": "K2.7 Code Highspeed"
+    },
+    {
+      "value": "kimi-code/k3-256k",
+      "name": "K3-256k"
+    },
+    {
+      "value": "kimi-code/k3",
+      "name": "K3"
+    },
+    {
+      "value": "kimi-code/k3.1-pro-highspeed",
+      "name": "K3.1 Pro Highspeed 2x Usage Cost"
+    },
+    {
+      "value": "kimi-code/k3.1-pro",
+      "name": "K3.1 Pro"
+    }
+  ],
+  "sessionMeta": {
+    "session_559bfaaf-d97d-4188-951c-0c8c4ad926be": {
+      "title": "ping",
+      "updatedAt": 1795445623905,
+      "cwd": "/home/user2/Desktop/OpenDWH"
+    }
+  },
+  "lastSessionId": "session_559bfaaf-d97d-4188-951c-0c8c4ad926be",
+  "uiState": {
+    "historyOpen": false
+  },
+  "diagSessionId": "session_fab0c1cd-b59b-46e2-a604-7201da6e20f6",
+  "hideDiagSession": false,
+  "tabs": [],
+  "activeTabSessionId": null
+}

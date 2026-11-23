@@ -1,0 +1,87 @@
+
+================ Kimidian 诊断 11/21/2026, 2:04:44 AM ================
+[环境]
+  node: v24.22.1  platform: linux/x64
+  electron: 43.8.9
+  env.PATH: /tmp/.mount_ObsidizAx5p2:/tmp/.mount_ObsidizAx5p2/usr/sbin:/home/user2/.cargo/bin:/home/user2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+  env.USERPROFILE: <未设置>
+  env.SystemRoot: <未设置>
+  env.TEMP: <未设置>
+  env.TMP: <未设置>
+  env.COMSPEC: <未设置>
+  env.HOME: /home/user2
+  env.HOMEDRIVE: <未设置>
+  env.HOMEPATH: <未设置>
+  env.APPDATA: <未设置>
+  env.PWD: /home/user2
+  敏感变量（仅列名，不记值）: 无
+  其它变量: SHELL, QT_ACCESSIBILITY, XDG_CONFIG_DIRS, XDG_MENU_PREFIX, GNOME_DESKTOP_SESSION_ID, QT_IM_MODULES, SSH_AUTH_SOCK, ARGV0, MEMORY_PRESSURE_WRITE, XMODIFIERS, DESKTOP_SESSION, GTK_MODULES, GSETTINGS_SCHEMA_DIR, XDG_SESSION_DESKTOP, LOGNAME, XDG_SESSION_TYPE, GPG_AGENT_INFO, SYSTEMD_EXEC_PID, XAUTHORITY, GJS_DEBUG_TOPICS, USERNAME, LANG, XDG_CURRENT_DESKTOP, MEMORY_PRESSURE_WATCH, WAYLAND_DISPLAY, INVOCATION_ID, MANAGERPID, APPDIR, GJS_DEBUG_OUTPUT, GNOME_SETUP_DISPLAY, XDG_SESSION_CLASS, USER, OWD, DISPLAY, SHLVL, QT_IM_MODULE, MANAGERPIDFDID, LD_LIBRARY_PATH, APPIMAGE, XDG_RUNTIME_DIR, DEBUGINFOD_URLS, IM_CONFIG_ENTRY, JOURNAL_STREAM, XDG_DATA_DIRS, GDMSESSION, XDG_SESSION_EXTRA_DEVICE_ACCESS, DBUS_SESSION_BUS_ADDRESS, GIO_LAUNCHED_DESKTOP_FILE_PID, GIO_LAUNCHED_DESKTOP_FILE, EGL_PLATFORM, FC_FONTATIONS, CHROME_DESKTOP
+[路径]
+  vault 根: /home/user2/Desktop/OpenDWH
+  spawn cwd: /home/user2/Desktop/OpenDWH
+  CLI 路径（设置值）: <空，自动探测>
+  CLI 路径（解析后）: C:\Users\Public/.kimi-code/bin/kimi.exe（⚠️ 未命中任何候选，兜底路径）
+  ❌ C:\Users\Public/.kimi-code/bin/kimi.exe（官方安装脚本默认位置）
+  ❌ /tmp/.mount_ObsidizAx5p2:/tmp/.mount_ObsidizAx5p2/usr/sbin:/home/user2/.cargo/bin:/home/user2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin/kimi.exe（PATH 目录）
+  ❌ /tmp/.mount_ObsidizAx5p2:/tmp/.mount_ObsidizAx5p2/usr/sbin:/home/user2/.cargo/bin:/home/user2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin/kimi.cmd（PATH 目录）
+  ❌ /tmp/.mount_ObsidizAx5p2:/tmp/.mount_ObsidizAx5p2/usr/sbin:/home/user2/.cargo/bin:/home/user2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin/kimi（PATH 目录）
+  ⚠️ 未找到 kimi CLI。请在 PowerShell 运行：irm https://code.kimi.com/kimi-code/install.ps1 | iex
+  插件目录: .obsidian/plugins/kimidian
+[Git Bash 探测]
+  环境变量 KIMI_SHELL_PATH: 未设置
+  设置页手动配置: <空，自动探测>
+  ❌ C:\Program Files\Git\bin\bash.exe（Git for Windows 标准路径）
+  ❌ C:\Program Files\Git\usr\bin\bash.exe（Git for Windows 标准路径）
+  ❌ C:\Program Files (x86)\Git\bin\bash.exe（Git for Windows 标准路径）
+  ❌ C:\Program Files (x86)\Git\usr\bin\bash.exe（Git for Windows 标准路径）
+  最终注入值: <无>
+  ⚠️ 未找到任何可用 bash.exe，session/new 大概率报 -32603 Git Bash 错误
+[步骤]
+  ❌ kimi.exe --version  (6ms)
+      message: spawn C:\Users\Public/.kimi-code/bin/kimi.exe ENOENT
+      code: ENOENT
+      stack: Error: spawn C:\Users\Public/.kimi-code/bin/kimi.exe ENOENT
+          at ChildProcess._handle.onexit (node:internal/child_process:316:19)
+          at onErrorNT (node:internal/child_process:554:16)
+          at process.processTicksAndRejections (node:internal/process/task_queues:90:21)
+      
+[结论] 诊断失败：kimi.exe --version
+
+================ Kimidian Diagnostics 11/23/2026, 10:48:58 PM ================
+[env]
+  node: v24.22.1  platform: linux/x64
+  electron: 43.8.9
+  env.PATH: /tmp/.mount_Obsidi1PxzCU:/tmp/.mount_Obsidi1PxzCU/usr/sbin:/home/user2/.cargo/bin:/home/user2/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+  env.USERPROFILE: <not set>
+  env.SystemRoot: <not set>
+  env.TEMP: <not set>
+  env.TMP: <not set>
+  env.COMSPEC: <not set>
+  env.HOME: /home/user2
+  env.HOMEDRIVE: <not set>
+  env.HOMEPATH: <not set>
+  env.APPDATA: <not set>
+  env.PWD: /home/user2
+  sensitive vars (names only): none
+  other vars: SHELL, QT_ACCESSIBILITY, XDG_CONFIG_DIRS, XDG_MENU_PREFIX, GNOME_DESKTOP_SESSION_ID, QT_IM_MODULES, SSH_AUTH_SOCK, ARGV0, MEMORY_PRESSURE_WRITE, XMODIFIERS, DESKTOP_SESSION, GTK_MODULES, GSETTINGS_SCHEMA_DIR, XDG_SESSION_DESKTOP, LOGNAME, XDG_SESSION_TYPE, GPG_AGENT_INFO, SYSTEMD_EXEC_PID, XAUTHORITY, GJS_DEBUG_TOPICS, USERNAME, LANG, XDG_CURRENT_DESKTOP, MEMORY_PRESSURE_WATCH, WAYLAND_DISPLAY, INVOCATION_ID, MANAGERPID, APPDIR, GJS_DEBUG_OUTPUT, GNOME_SETUP_DISPLAY, XDG_SESSION_CLASS, USER, OWD, DISPLAY, SHLVL, QT_IM_MODULE, MANAGERPIDFDID, LD_LIBRARY_PATH, APPIMAGE, XDG_RUNTIME_DIR, DEBUGINFOD_URLS, IM_CONFIG_ENTRY, JOURNAL_STREAM, XDG_DATA_DIRS, GDMSESSION, XDG_SESSION_EXTRA_DEVICE_ACCESS, DBUS_SESSION_BUS_ADDRESS, GIO_LAUNCHED_DESKTOP_FILE_PID, GIO_LAUNCHED_DESKTOP_FILE, EGL_PLATFORM, FC_FONTATIONS, CHROME_DESKTOP
+[path]
+  vault root: /home/user2/Desktop/OpenDWH
+  spawn cwd: /home/user2/Desktop/OpenDWH
+  CLI path (setting): /home/user2/.kimi-code/bin/kimi
+  CLI path (resolved): /home/user2/.kimi-code/bin/kimi (source: set manually in settings page）
+  ✅ /home/user2/.kimi-code/bin/kimi（set manually in settings page）
+  plugin dir: .obsidian/plugins/kimidian
+[Git Bash detect]
+  env KIMI_SHELL_PATH: not set
+  set manually in settings page: /bin/bash
+  ✅ /bin/bash（set manually in settings page）
+  final injected value: /bin/bash (source: set manually in settings page）
+[steps]
+  ✅ kimi.exe --version  (432ms)
+      stdout: 2.7.2  stderr: <empty>
+  ✅ acp full pipeline (spawn→initialize→session→prompt)  (9688ms)
+      initialize OK (552ms), agent v2.7.2
+      session/new OK (188ms), sessionId=session_fab0c1cd-b59b-46e2-a604-7201da6e20f6
+      configOptions: 3 entries [model=kimi-code/kimi-for-coding(6 options), thinking=low(3 options), mode=default(4 options)]
+      session/prompt OK (8944ms), stopReason=end_turn
+[conclusion] Diagnostics passed (2  steps all green)
